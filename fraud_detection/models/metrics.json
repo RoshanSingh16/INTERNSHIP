@@ -1,0 +1,58 @@
+{
+  "random_forest": {
+    "model": "Random Forest",
+    "roc_auc": 1.0,
+    "avg_prec": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "conf_matrix": [
+      [
+        1940,
+        0
+      ],
+      [
+        0,
+        60
+      ]
+    ]
+  },
+  "xgboost": {
+    "model": "XGBoost",
+    "roc_auc": 1.0,
+    "avg_prec": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "conf_matrix": [
+      [
+        1940,
+        0
+      ],
+      [
+        0,
+        60
+      ]
+    ]
+  },
+  "features": [
+    "amount",
+    "hour",
+    "day_of_week",
+    "merchant_cat",
+    "distance_km",
+    "prev_txn_hrs",
+    "v1",
+    "v2",
+    "v3",
+    "v4",
+    "v5"
+  ],
+  "classes": [
+    "dining",
+    "entertainment",
+    "grocery",
+    "retail",
+    "travel"
+  ]
+}
